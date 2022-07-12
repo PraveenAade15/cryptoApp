@@ -5,8 +5,7 @@ import retrofit2.http.*
 
 interface NoteAPI {
 
-    @GET("home")
+    @GET("/home")
     suspend fun getNotes(): Response<List<CryptoValue>>
-
 
 }

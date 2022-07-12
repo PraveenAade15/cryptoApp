@@ -1,6 +1,7 @@
 package com.example.cryptoapp.app
 
 import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
 
-class CryptoApp:Application() {
-}
+@HiltAndroidApp
+class CryptoApp:Application()
